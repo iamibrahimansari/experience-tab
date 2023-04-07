@@ -1,0 +1,20 @@
+.profile{
+    margin-bottom: 3rem;
+    &__job{
+        font-weight: 400;
+        margin-bottom: 0.8rem;
+        color: $textColor;
+    }
+    &__name{
+        background-color: $nameBackColor;
+        display: inline;
+        justify-self: center;
+        padding: 0.6rem 1rem;
+        border-radius: 5px;
+        color: $nameColor;
+    }
+    &__date{
+        margin-top: 1rem;
+        color: $dateColor;
+    }
+}

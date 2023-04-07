@@ -1,0 +1,40 @@
+@media screen and (max-width: 860px){
+    .App{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    nav{
+        ul{
+            text-align: center;
+            li{
+                display: inline-block;
+                padding-left: 0;
+                padding-bottom: 0;
+                border: none;
+                border-bottom: 3px solid;
+                &:not(:last-child){
+                    margin-right: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .App{
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width: 330px){
+    nav{
+        ul{
+            li{
+                &:not(:last-child){
+                    margin-right: 3rem;
+                }
+            }
+        }
+    }
+}
